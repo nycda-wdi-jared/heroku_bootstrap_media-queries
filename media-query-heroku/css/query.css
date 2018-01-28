@@ -1,0 +1,49 @@
+@media all and (min-width: 1200px){
+	body {
+		background-color: purple;
+	}
+
+	h1 {
+		color: yellow;
+	}
+
+	h1:hover {
+		color: teal;
+	}
+
+	button {
+		font-size: 75px;
+	}
+}
+
+@media all and (max-width: 960px){
+	body {
+		background-color: red;
+	}
+
+	h1 {
+		color: green;
+	}
+
+	button {
+		font-size: 50px;
+	}
+}
+
+@media all and (max-width: 630px){
+	body {
+		background-color: blue;
+	}
+
+	h1 {
+		color: white;
+	}
+
+	h1:hover {
+		color: pink;
+	}
+
+	button {
+		font-size: 25px;
+	}
+}

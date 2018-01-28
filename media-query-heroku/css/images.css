@@ -1,0 +1,27 @@
+/* insert css below */
+img {
+	height: 200px;
+	width: 200px;
+}
+
+/* Query for Chrome */
+@media all
+  and (min-width: 320px) 
+  and (max-width: 480px) {
+
+  	img {
+  		height: 50px;
+  		width: 50px;
+  	}
+
+}
+
+/* Query for Safari */
+@media all and (max-width: 600px) {
+
+  	img {
+  		height: 50px;
+  		width: 50px;
+  	}
+  	
+}
