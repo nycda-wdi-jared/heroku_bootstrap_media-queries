@@ -68,7 +68,7 @@ slidenumbers: true
 - Deploy your code: <br />
   `$ git add .` <br />
   `$ git commit -m 'commit message'` <br />
-  `$ git push origin master` <br />
+  `$ git push origin main` <br />
 
 - Once you've dealt with these issues, create a new app on Heroku from the Terminal: <br />
   `$ heroku create` <br />
@@ -77,7 +77,7 @@ slidenumbers: true
   `$ heroku git:remote -a <heroku name>` <br />
 
 - Then, when you're ready, push your code to production:<br />
-  `$ git push heroku master` <br />
+  `$ git push heroku main` <br />
 
 
 - `$ heroku open`
