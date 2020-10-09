@@ -73,12 +73,8 @@ slidenumbers: true
 - Once you've dealt with these issues, create a new app on Heroku from the Terminal: <br />
   `$ heroku create` <br />
 
-- Make sure to switch your terminal to the new name that heroku created for you. It will still be on the previous one you deployed:<br />
-  `$ heroku git:remote -a <heroku name>` <br />
-
 - Then, when you're ready, push your code to production:<br />
   `$ git push heroku main` <br />
-
 
 - `$ heroku open`
   to open your new app in the browser!
